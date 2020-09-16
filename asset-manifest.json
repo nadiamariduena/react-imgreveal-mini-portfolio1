@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-imgreveal-mini-portfolio1/static/css/main.c3a680d7.chunk.css",
+    "main.js": "/react-imgreveal-mini-portfolio1/static/js/main.600dc610.chunk.js",
+    "main.js.map": "/react-imgreveal-mini-portfolio1/static/js/main.600dc610.chunk.js.map",
+    "runtime-main.js": "/react-imgreveal-mini-portfolio1/static/js/runtime-main.6280fa31.js",
+    "runtime-main.js.map": "/react-imgreveal-mini-portfolio1/static/js/runtime-main.6280fa31.js.map",
+    "static/js/2.f12101de.chunk.js": "/react-imgreveal-mini-portfolio1/static/js/2.f12101de.chunk.js",
+    "static/js/2.f12101de.chunk.js.map": "/react-imgreveal-mini-portfolio1/static/js/2.f12101de.chunk.js.map",
+    "index.html": "/react-imgreveal-mini-portfolio1/index.html",
+    "precache-manifest.8654db0619695e7c79928dbfa6d24b56.js": "/react-imgreveal-mini-portfolio1/precache-manifest.8654db0619695e7c79928dbfa6d24b56.js",
+    "service-worker.js": "/react-imgreveal-mini-portfolio1/service-worker.js",
+    "static/css/main.c3a680d7.chunk.css.map": "/react-imgreveal-mini-portfolio1/static/css/main.c3a680d7.chunk.css.map",
+    "static/js/2.f12101de.chunk.js.LICENSE.txt": "/react-imgreveal-mini-portfolio1/static/js/2.f12101de.chunk.js.LICENSE.txt",
+    "static/media/fonts.scss": "/react-imgreveal-mini-portfolio1/static/media/Roboto-Black.3234b3e8.ttf",
+    "static/media/Tom_van_der_Borght_metalmagazine-19.jpg": "/react-imgreveal-mini-portfolio1/static/media/Tom_van_der_Borght_metalmagazine-19.fee65593.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6280fa31.js",
+    "static/js/2.f12101de.chunk.js",
+    "static/css/main.c3a680d7.chunk.css",
+    "static/js/main.600dc610.chunk.js"
+  ]
+}
