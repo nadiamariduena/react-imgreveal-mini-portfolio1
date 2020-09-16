@@ -1,0 +1,106 @@
+.bannerTwinImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  .sideOneTwin {
+    width: auto;
+    height: auto;
+    background-color: indigo;
+
+    //
+    .textOneTwin {
+      //   padding: 40px 0px 30px 0px;
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(255, 255, 255);
+
+      p {
+        width: 90%;
+        font-size: 4.5rem;
+        line-height: 65px;
+        padding: 60px 10px 20px 60px;
+        font-family: "Poppins-light";
+      }
+      h4 {
+        font-size: 1.5rem;
+        text-align: left;
+        line-height: 25px;
+        padding: 20px 50px 20px 60px;
+        font-family: "Fjord One", serif;
+        font-weight: 100;
+        color: #282828;
+      }
+
+      h5 {
+        font-size: 1rem;
+        text-align: left;
+        padding: 40px 10px 70px 60px;
+        font-family: "Raleway-Thin", sans-serif;
+        font-weight: 100;
+        color: #212121;
+      }
+
+      .linkMore {
+        color: #000;
+        text-decoration: none;
+        padding-bottom: 4px;
+        border-bottom: 2px solid #111;
+        transition: border-bottom 0.5s ease-in-out;
+        &:hover {
+          border-bottom-color: transparent;
+        }
+      }
+    }
+  }
+  .sideTwoTwin {
+    width: auto;
+    height: auto;
+    background-color: goldenrod;
+  }
+}
+
+.img-container {
+  width: 50vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  //
+
+  &:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+  }
+
+  img {
+    width: 100%;
+    min-height: auto;
+    object-fit: cover;
+    position: absolute;
+  }
+}
+
+/*
+  
+  If you notice the effect reveal is like the word says it, it REVEALS, and what it reveals is 
+  the image under it. with the ::after selector you are going to create a mask based 
+  on 100% from another source, the source is the parent of the mask ::after and the parent is .img-container
+  , the mask is going to adapt its 100% to whatever the parent size is, in this case:
+  
+     width: 1000px;
+      height: 600px; 
+      
+  so the width and height, and the child (:after)
+  is going to act as a curtain that you will open or reveal to see what is underneath.
+  
+  
+   let imageReveal = CSSRulePlugin.getRule(".img-container:after");
+  
+  */
