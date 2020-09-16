@@ -8,7 +8,13 @@
 
 <p>There is an issue or something i am not sure in terms of css styles, i dont know if it can cause some problems in the website (it seems to work pretty well). I will write a note in those lines after i get a feedback from my teacher.  line 8-9 and 58-59</p>
 
+<br>
+<br>
+
 ~~No copyright infringement intended, All pictures used in this exercise are **_only_** for educational purposes.~~
+
+<br>
+<br>
 
 #### Web design by Nadia Mariduena
 
@@ -17,3 +23,11 @@
 #### Artist: Tom Van der Borght
 
 ##### Portrait and photos: Kaat Pype
+
+<br>
+<br>
+<br>
+
+##### Previous project
+
+[<img src="./src/img/preview.gif">](https://github.com/nadiamariduena/react-img-reveal1-gsap)
